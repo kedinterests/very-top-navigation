@@ -1,0 +1,10 @@
+@media (max-width: 767px) {
+  .menu-content {
+	overflow-x: auto;
+  }
+
+  .menu-item {
+	flex: 0 0 auto; /* Prevent items from shrinking */
+	width: fit-content; /* Ensure responsiveness */
+  }
+}
